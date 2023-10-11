@@ -1,7 +1,7 @@
 package in.co.batch;
 
-public class Palindrome {
-	public static void main(String[] args) {
+ public class Palindrome {
+//	public static void main(String[] args) {
 //		
 //	
 //	int a=151;
@@ -21,9 +21,9 @@ public class Palindrome {
 //		System.out.println("not palindrom");
 //	}
 		
-		package in.co.rays.Practice;
+//		package in.co.rays.Practice;
 
-		public class Palin {
+	//	public class Palin {
 			public static void main(String[] args) {
 				
 			
@@ -45,8 +45,8 @@ public class Palindrome {
 				System.out.println("not palindrom");
 			}
 	}
+	
+		
+		
+		
 	}
-		
-		
-		
-	}}

@@ -1,0 +1,21 @@
+package in.com.Clonable;
+
+public class Customer implements Cloneable {
+	String name=null;
+	
+	Account1 ac=new Account1();
+	public Customer(String name,int balance) {
+		this.name=name;
+		this.ac.balance=balance;
+		
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		Customer c=(Customer) super.clone();
+		
+	c.ac	=(Account1) ac.clone();
+		return c;
+	}
+
+}
