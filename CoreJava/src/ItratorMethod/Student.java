@@ -31,6 +31,8 @@ public static void main(String[] args) {
 	al.add(sm1);
 	al.add(sm2);
 	al.add(sm3);
+	
+	
 	System.out.println("sort throw id");
 	Collections.sort(al, new SortId());
 	Iterator<Student> it = al.iterator();

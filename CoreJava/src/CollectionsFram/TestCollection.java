@@ -11,7 +11,7 @@ public class TestCollection {
 	c.add(5);
 	c.add("lav");
 //	c.add('w');
-//	c.add(10.55);
+	c.add(10.55);
 //	c.add(1000);
 	System.out.println(c);
 //	
@@ -55,10 +55,14 @@ public class TestCollection {
 //	
 	c.retainAll(c);
 	System.out.println(c);
+	System.out.println("______________");
+	c2.retainAll(c2);
+	System.out.println(c2);
 //	
 //	
 //	
 	System.out.println(c.size());
+	System.out.println(c2.size());
   }
 	}
 
