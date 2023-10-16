@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="OopsConcept"/>
+	<classpathentry kind="src" path="in.co.rays.oopsconcept"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
