@@ -11,7 +11,7 @@ public class Customer implements Cloneable {
 	}
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
+	
 		Customer c=(Customer) super.clone();
 		
 	c.ac	=(Account1) ac.clone();
