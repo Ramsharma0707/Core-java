@@ -11,6 +11,7 @@ public static void main(String[] args) {
 	emp.add(new Employ(1, "ram", "7875"));
 	emp.add(new Employ(4, "lokee", "65246255"));
 	emp.add(new Employ(9, "amit", "93554"));
+	
 	System.out.println(emp);
 	
 	

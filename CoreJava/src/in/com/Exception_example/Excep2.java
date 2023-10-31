@@ -10,8 +10,11 @@ try {
 	
 } catch (Exception e) {
 	System.out.println(e);
+}
+	//finally {
+		//System.out.println("Enter valid char index");
+	//}
 	
 }
 
-}
 }

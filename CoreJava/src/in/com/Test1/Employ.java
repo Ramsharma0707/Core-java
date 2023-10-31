@@ -4,6 +4,7 @@ public class Employ {
 int id;
 String name;
 String address;
+
 public Employ(int id, String name, String address) {
 	super();
 	this.id = id;
